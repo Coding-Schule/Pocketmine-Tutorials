@@ -55,6 +55,10 @@ Die Form muss noch an den Spieler gesendet werden
 $form->sendToPlayer($player);
 ```
 
+So sollte es aussehen
+
+![Button Code](/Bilder/SimpleFormCode.png)
+
 Doch eine Sache gibt es noch...
 Was wenn der Spieler die Form schließt ohne ein Output? Deswegen hab ich in der function int `$data = null` angegeben
 Also müsste man nur noch abfragen ob `$data` gleich null ist
@@ -62,10 +66,6 @@ Also müsste man nur noch abfragen ob `$data` gleich null ist
 
 ###### Endresultat
 
-Am Ende Sollte die Button erstellung so aussehen
+ Die Form sollte so in der Richtung ausschauen
 
-![Button Code](/bilder/SimpleFormCode.png)
-
-Und die Form sollte so in der Richtung ausschauen
-
-![Vorschau](/bilder/SimpleFormVorschau.png)
+![Vorschau](/Bilder/SimpleFormVorschau.png)
