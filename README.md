@@ -1,10 +1,14 @@
 # Pocketmine Tutorials
 
-Hier findest du Tutorials für die PocketmineAPI
+Hier findest du Tutorials für die PocketmineAPI.
 
-## Vorschläge/Fehler
+## Vorschläge
 
-Solltet ihr Vorschläge oder Fehler finden so meldet das bitte per [Issue](https://github.com/Coding-Schule/Pocketmine-Tutorials/issues/new)
+Um ein Vorschlag zu machen eröffne eine [Issue](https://github.com/Coding-Schule/Pocketmine-Tutorials/issues/new) mit deinem Vorschlag.
+
+## Fehler
+
+Um ein Fehler zu melden eröffne eine [Issue](https://github.com/Coding-Schule/Pocketmine-Tutorials/issues/new) mit dem Fehler.
 
 
  
