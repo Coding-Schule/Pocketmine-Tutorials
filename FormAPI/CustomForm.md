@@ -34,7 +34,7 @@ $form->addInput("Fertiger Input Text", "Ghost Text", "Text");
 
 Sollte am Ende so aussehen
 
-![Code](/bilder/CustomFormCode.png)
+![Code](/Bilder/CustomFormCode.png)
 
 ###### Output
 
@@ -64,11 +64,11 @@ damit fragt man ab was der spieler ausgwählt hat
 
 Am Ende sieht das Ganze so aus
 
-![Code 2](/bilder/CustomFormCode-2.png)
+![Code 2](/Bilder/CustomFormCode-2.png)
 
 ###### Endresultat
 
 Deine Form sollte am ende so aussehen
 
-![Vorschau1](/bilder/CustomFormVorschau.png)
-![Vorschau2](/bilder/CustomFormVorschau-2.png)
+![Vorschau1](/Bilder/CustomFormVorschau.png)
+![Vorschau2](/Bilder/CustomFormVorschau-2.png)
