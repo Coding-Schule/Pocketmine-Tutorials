@@ -2,13 +2,10 @@
 
 ### Enthält
 
--[x] Simple Form
+- [x] Simple Form
 
--[x] Custom Form
+- [x] Custom Form
 
--[ ] Modal Form 
+- [ ] Modal Form 
 
 
-#### Contributors
-
-- Wildboy
