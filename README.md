@@ -10,5 +10,6 @@ Um ein Vorschlag zu machen eröffne eine [Issue](https://github.com/Coding-Schul
 
 Um ein Fehler zu melden eröffne eine [Issue](https://github.com/Coding-Schule/Pocketmine-Tutorials/issues/new) mit dem Fehler.
 
-
+### Contributors
+- ChampOfGames
  
