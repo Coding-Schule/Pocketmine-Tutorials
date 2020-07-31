@@ -1,7 +1,7 @@
 # Enthält
- -  Config
- -  Zahlen in Configs
- -  NestedConfig
+ - [x] Config
+ - [x] Zahlen in Configs
+ - [x] NestedConfig
  
 # Contributor
  -  Janik ( Zahnpolol )
