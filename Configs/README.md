@@ -1,5 +1,6 @@
 # Enthält
- - [ ] Config
- - [ ] NestedConfig
+ -  Config
+ -  Zahlen in Configs
+ -  NestedConfig
 
 
