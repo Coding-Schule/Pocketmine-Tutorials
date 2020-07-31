@@ -1,5 +1,5 @@
 # Enthält
- - [] Config
+ - [x] Config
  - [] NestedConfig
 
 
