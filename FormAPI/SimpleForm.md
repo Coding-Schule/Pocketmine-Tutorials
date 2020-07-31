@@ -57,7 +57,7 @@ $form->sendToPlayer($player);
 
 So sollte es aussehen
 
-![Button Code](/Bilder/SimpleFormCode.png)
+![Button Code](/Bilder/FormAPI/SimpleFormCode.png)
 
 Doch eine Sache gibt es noch...
 Was wenn der Spieler die Form schließt ohne ein Output? Deswegen hab ich in der function int `$data = null` angegeben
@@ -68,4 +68,4 @@ Also müsste man nur noch abfragen ob `$data` gleich null ist
 
  Die Form sollte so in der Richtung ausschauen
 
-![Vorschau](/Bilder/SimpleFormVorschau.png)
+![Vorschau](/Bilder/FormAPI/SimpleFormVorschau.png)
