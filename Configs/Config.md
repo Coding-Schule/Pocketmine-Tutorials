@@ -34,21 +34,25 @@ $config->save();
 Auch hier ist das speichern ganz wichtig. Egal was wie ändern es muss __immer__ gespeichert werden.
 
 Wir können statt einem String auch eine Zahl in die Config speichern, als Beipsiel 0:
-
+```php
 $config->set("Zahl", 0);
 $config->save();
-Wenn wir aber ein CoinSystem oder Minigame coden wollen wissen wir nicht genau wie viel der jenige in der Config bereits stehen hat. Wenn wir um 1 erhöhen möchten geht das ganz einfach:
+```
 
+Wenn wir aber ein CoinSystem oder Minigame coden wollen wissen wir nicht genau wie viel der jenige in der Config bereits stehen hat. Wenn wir um 1 erhöhen möchten geht das ganz einfach:
+```php
 $config->get("Zahl", $config->get("Zahl") + 1);
 $config->save();
+```
 Hierbei setzen wir die Zahl neu aber getten sie im Wert und erhöhen sie anschließend. Das ganze geht natürlich auch mit minus, hierzu das + durch ein - tauschen.
 
 Möchten wir aber verhindern das die Zahl nicht kleine wie 0 wird, können wir eine if anfrage verwenden. Das geht so:
-
+```php
 $wert = $config->get("Zahl");
 if($wert >= 0){
 //ja $wert ist größer oder gleich wie 0
 } else {
 //nein $wert ist kleiner als 0
 }
+```
 War das so schwer? Nein ich denke nicht und du kannst nun voll durchstarten.
