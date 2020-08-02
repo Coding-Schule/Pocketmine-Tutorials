@@ -1,5 +1,5 @@
 # Construct
 
 ## Enthält
-[x] Construct Erklärung
+- [x] Construct Erklärung
 
