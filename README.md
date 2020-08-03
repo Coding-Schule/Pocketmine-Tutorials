@@ -14,5 +14,5 @@ Um ein Fehler zu melden eröffne eine [Issue](https://github.com/Coding-Schule/P
 - ChampOfGames
 - Wildboy
 - Ahmad (ahmuudi)
-- Janik ( Zahnpolol )
- 
+- Janik (Zahnpolol)
+
