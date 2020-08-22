@@ -6,6 +6,6 @@
 
 - [x] Custom Form
 
-- [ ] Modal Form 
+- [x] Modal Form 
 
 
