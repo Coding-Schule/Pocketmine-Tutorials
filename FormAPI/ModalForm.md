@@ -6,7 +6,7 @@ use jojoe77777\FormAPI\ModalForm
 Im Prinzip ist es genauso wie SimpleForm, bloß mit kleine änderungen
 So erstellt man die Form:
 ```php
-$form = new SimpleForm(function(Player $player, $data = null){
+$form = new ModalForm(function(Player $player, $data = null){
 //code
 });
 ```
