@@ -4,8 +4,10 @@
 
 - [x] Simple Form
 
+- [x] Modal Form 
+
 - [x] Custom Form
 
-- [x] Modal Form 
+
 
 
