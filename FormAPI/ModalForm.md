@@ -33,7 +33,7 @@ $form->sendToPlayer($player);
 
 Bilder:
 
-![Vorschau1](/Bilder/FormAPI/modalform.png)
+![Vorschau1](/Bilder/FormAPI/modalform.png) <br>
 ![Vorschau2](/Bilder/FormAPI/ModalForm_setzen_Code.png)
 
 
