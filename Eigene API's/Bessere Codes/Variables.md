@@ -46,6 +46,7 @@ public function onCommand(Command $command, CommandSender $sender, string $label
             }
            break;
     }
+    return true;
 }
 ```
 
