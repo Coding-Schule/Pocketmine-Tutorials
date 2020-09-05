@@ -185,3 +185,57 @@ class MySubClass extends TestClass {
     }
 }
 ```
+
+
+Größeres Beispiel:
+
+```php
+
+abstract class BaseCommand
+{
+   /**
+     * First usage check
+     *
+     * @api
+     *
+     * @param CommandSender $sender
+     * 
+     * @return bool
+     */
+   abstract public function canUse(CommandSender $sender) :bool;
+
+ 
+    /**
+     * Executed when the command was called
+     *
+     * @api
+     *
+     * @param CommandSender $sender
+     * @param string[] $args
+     * 
+     * @return void
+     */
+    abstract public function execute(CommandSender $sender, array $args) :bool;
+}
+
+class TestCommand extends BaseCommand
+{
+    public function canUse(CommandSender $sender) :bool
+    {
+        return ($sender instanceof Player);
+    }
+
+    public function execute(CommandSender $sender, array $args) 
+    {
+        $sender->sendMessage('A test');
+    }
+}
+
+$command = new TestCommand();
+
+if ($command instanceof BaseCommand) {  // SubClasses nehmen auch die Instanz ihrer parent class an
+    if ($command->canUse($sender)) $command->execute($sender, $args);
+} 
+```
+
+_More will follow soon_
