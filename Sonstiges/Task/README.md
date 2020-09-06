@@ -63,8 +63,8 @@ public function onRun($ticks){
     if()...
 ```
 
-Task stoppen/löschen:
+Task stoppen/löschen (innerhalb einer Task):
 
 ```php
- $this->main->getServer()->getScheduler()->cancelTask($this->getTaskId());
+ $this->getHandler()->cancel();
 ```
