@@ -1,6 +1,6 @@
 # Webhooks
 
-Du kannst auch im Webhook Sachen auslassen wie die fiels oder eine description etc
+Du kannst auch im Webhook Sachen auslassen wie die fields oder eine description etc
 
 ```php
 <?php
@@ -45,7 +45,7 @@ $json_data = json_encode([
 
             // Timestamp (ISO8601)
             "timestamp" => $timestamp,
-
+A
             // Embed Farbe
             "color" => hexdec( "3366ff" ),
 
