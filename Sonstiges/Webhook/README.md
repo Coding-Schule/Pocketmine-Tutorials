@@ -1,6 +1,6 @@
 # Webhooks
 
-Du kannst auch im Webhook Sachen auslassen wie die fields oder eine description etc
+Du kannst auch im Webhook Sachen auslassen wie z.B. die fields oder die description etc
 
 ```php
 <?php
